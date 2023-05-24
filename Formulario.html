@@ -15,159 +15,233 @@
 <body id="fondo">
 	<!-- Barra de navegación-->
 	<nav class="cyan">
-	  <div class="nav-wrapper">
-	    <a href="Pagina.html" class="brand-logo">PATITAS FELICES</a>
-	    <ul id="nav-mobile" class="right hide-on-med-and-down">
-	      <li><a href="Quienes.html">¿Quienes somos?</a></li>
-	      <li><a href="productos.html">Peludos</a></li>
-	      <li><a href="PQRS.html">PQRS</a></li>
-	      <li><a href="Formulario.html">Formulario</a></li>
-	    </ul>
-	  </div>
-	</nav>
-<!-- fin Barra de navegación-->	
-	<center> <form>
-		<center>
-			<label id="titulo"> FORMULARIO DE ADOPCIÓN </label> <br>
-			 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0OoFtKrn0WuKHFwRplbbMZA1rBi8Jrd289A&usqp=CAU" width="190px" height="130px"> <br>
-			<label id="numero" for="num">Formulario N° </label> <input type="number" id="num" min="1" >
-			<label id="fecha" for="fecha_nac">Fecha:</label> <input type="date" id="fecha_nac" >
-		</center>
-		
-	
-	<div id="DatosPersonales"> 
-		<div id="datos">
-			<h3> <center> I. DATOS PERSONALES </center> </h3>
-			<label id="nomc" for="nombre">Nombre completo: </label> <input type="text" id="nombre" placeholder="Escriba aquí"><br>
-			<label id="ed" for="edad">Edad:</label> <input type="number" id="edad" min="18" max="100"><br>
-			<label id="dir" for="direccion"> Dirección exacta donde estará el peludito: </label> <input type="text" id="direccion" placeholder="Escriba aquí"><br>
-			<label for="ocupacion"> Ocupación: </label> <input type="text" id="ocupacion" placeholder="Escriba aquí">
-			<label for="correo">Correo:</label> <input type="email" id="correo" ><br>
-			<label for="telefono">Teléfono:</label> <input type="number" id="telefono" min="1"><br>
-			<label for="celular">Celular:</label> <input type="number" id="celular" min="1"><br>
-			<label for="trabajo">Trabajo:</label> <input type="number" id="trabajo" min="1"><br>
-			<label>Nivel de estudios: &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</label> 
-				<label for="tecnico">Técnico </label> <input type="checkbox" name="tecnico"> &nbsp;&nbsp;&nbsp;
-				<label for="tecnologo">Tecnólogo </label> <input type="checkbox" name="tecnologo"> &nbsp;&nbsp;&nbsp;
-				<label for="profesional">Profesional </label> <input type="checkbox" name="profesional"> &nbsp;&nbsp;&nbsp;
-				<label for="postgrado">Postgrado </label> <input type="checkbox" name="postgrado"> &nbsp;&nbsp;&nbsp;<br>
+		<div class="nav-wrapper">
+			<a href="Pagina.html" class="brand-logo">PATITAS FELICES</a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="Quienes.html">¿Quienes somos?</a></li>
+				<li><a href="productos.html">Peludos</a></li>
+				<li><a href="PQRS.html">PQRS</a></li>
+				<li><a href="Formulario.html">Formulario</a></li>
+			</ul>
 		</div>
+	</nav>
+	<!-- fin Barra de navegación-->
+
+	<div class="section container">
+			<div class="row">
+				
+				<center>
+					<form class="col s12">
+						<div class="row" card-panel>
+							<div class="input-field col s12">
+								<center>
+									<label id="titulo"> FORMULARIO DE ADOPCIÓN </label> <br>
+									<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0OoFtKrn0WuKHFwRplbbMZA1rBi8Jrd289A&usqp=CAU" width="190px" height="130px"> <br>
+								</center>
+							</div>
+
+							<div class="input-field col s6">
+								<label id="numero" for="num">Formulario N° </label> <input type="number" id="num" min="1">
+							</div>
+
+							<div class="input-field col s6">
+								<label id="fecha" for="fecha_nac">Fecha:</label> <input type="date" id="fecha_nac">
+							</div>
+
+							<div id="DatosPersonales">
+								<div id="datos">
+									<h3> <center> I. DATOS PERSONALES </center> </h3>
+
+									<div class="input-field col s9">
+										<label id="nomc" for="nombre">Nombre completo: </label> <input type="text" id="nombre" placeholder="Escriba aquí"><br>
+									</div>
+
+									<div class="input-field col s3">
+										<label id="ed" for="edad">Edad:</label> <input type="number" id="edad" min="18" max="100"><br>
+									</div>
+
+									<div class="input-field col s12">
+										<label id="dir" for="direccion"> Dirección exacta donde estará el peludito: </label> <input type="text" id="direccion" placeholder="Escriba aquí"><br>
+									</div>
+
+									<div class="input-field col s6">
+										<label for="ocupacion"> Ocupación: </label> <input type="text" id="ocupacion" placeholder="Escriba aquí"><br>
+									</div>
+
+									<div class="input-field col s6">
+										<label for="correo">Correo:</label> <input type="email" id="correo"><br>
+									</div>
+
+									<div class="input-field col s4">
+										<label for="telefono">Teléfono:</label> <input type="number" id="telefono" min="1"><br>
+									</div>
+
+									<div class="input-field col s4">
+										<label for="celular">Celular:</label> <input type="number" id="celular" min="1"><br>
+									</div>
+
+									<div class="input-field col s4">
+										<label for="trabajo">Trabajo:</label> <input type="number" id="trabajo" min="1"><br>
+									</div>
+
+									<div col s12">
+										<label>Nivel de estudios: &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</label>
+									</div>
+
+									<div col s3">
+										<label for="tecnico">Técnico </label> <input type="checkbox" name="tecnico"> &nbsp;&nbsp;&nbsp;
+									</div>
+
+									<div col s3">
+										<label for="tecnologo">Tecnólogo </label> <input type="checkbox" name="tecnologo"> &nbsp;&nbsp;&nbsp;
+									</div>
+
+									<div col s3">
+										<label for="profesional">Profesional </label> <input type="checkbox" name="profesional"> &nbsp;&nbsp;&nbsp;
+									</div>
+
+									<div col s3">
+										<label for="postgrado">Postgrado </label> <input type="checkbox" name="postgrado"> &nbsp;&nbsp;&nbsp;<br>
+									</div>
+									
+								</div>
+							</div>
+
+							<div id="referencias">
+								<h3> <center> II. REFERENCIAS </center> </h3>
+
+								<div col s6">
+									<label for="Refp">Referencia personal: </label> <input type="text" id="Refp" placeholder="Escriba aquí"><br>
+								</div>
+
+								<div col s3">
+									<label for="Telp">Teléfono:</label> <input type="number" id="Telp" min="1"><br>
+								</div>
+
+								<div col s3">
+									<label for="relacion">Relación: </label> <input type="text" id="relacion" placeholder="Escriba aquí"><br>
+								</div>
+
+								<div col s6">
+									<label for="RefF">Referencia familiar: </label> <input type="text" id="RefF" placeholder="Escriba aquí"><br>
+								</div>
+
+								<div col s3">
+									<label for="TelF">Teléfono:</label> <input type="number" id="TelF" min="1"><br>
+								</div>
+
+								<div col s3">
+									<label for="parentesco">Parentesco: </label> <input type="text" id="parentesco" placeholder="Escriba aquí"><br>
+								</div>
+								
+							</div>
+
+							<div id="situacion_personal">
+								<h3> <center> III. SITUACIÓN PERSONAL</center> </h3>
+								<label id="personas">Mencione las personas con quien vive: </label> <input type="text" id="perso" placeholder="Escriba aquí"><br><br>
+
+								<table BORDER WIDTH="50%" HEIGHT="30%" BORDER CELLPADDING=0 CELLSPACING=0 ">
+
+									<tr>
+										<th colspan="1">Nombre completo</th>
+										<th colspan="1">Edad</th>
+										<th colspan="1">Parentesco</th>
+									</tr>
+
+									<tr>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+									</tr>
+									<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+									<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+									<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+
+									<tr>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+									</tr>
+
+									<tr>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+									</tr>
+									<tr>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+										<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
+									</tr>
+								</table>
+								<label id="bebe">¿Algún familiar espera un bebé? </label> <br>
+								<label>Si </label><input type="radio" id="si" name="bebe" value="si"> &nbsp;&nbsp;&nbsp;
+								<label>No </label><input type="radio" id="no" name="bebe" value="no"> &nbsp;&nbsp;&nbsp;<br>
+
+								<label id="hogar">¿En su hogar alguien es alérgico a los animales o sufre de asma" </label><br>
+								<label>Si</label><input type="radio" id="si" name="alergia" value="si"> &nbsp;&nbsp;&nbsp;
+								<label>No </label><input type="radio" id="n" name="alergia" value="n"> &nbsp;&nbsp;&nbsp;<br>
+							</div>
+
+							<div id="domicilio">
+								<h3> <center> IV. DOMICILIO</center> </h3>
+								<label>¿Qué tipo de inmueble posee? </label> <br>
+								<label id="casa"> Casa</label><input type="radio" id="s" name="propio" value="p"> &nbsp;&nbsp;&nbsp;
+								<label id="apart"> Apartamento</label><input type="radio" id="s" name="propio" value="p"> &nbsp;&nbsp;&nbsp;
+								<label id="fin"> Finca</label><input type="radio" id="s" name="propio" value="p"> &nbsp;&nbsp;&nbsp;
+								<label id="pro"> Propio </label><input type="radio" id="s" name="propio" value="p"> &nbsp;&nbsp;&nbsp;
+								<label id="arre">Arrendado </label><input type="radio" id="n" name="arrendado" value="a"> &nbsp;&nbsp;&nbsp;<br>
+								<h6>SI ES ARRENDATARIO, COLOQUE EL NOMBRE Y NÚMERO DE TELÉFONO DEL DUEÑO </h6>
+								<label id="nd" for="dueño">Nombre completo del dueño del inmueble: </label> <input type="text" id="dueño" placeholder="Escriba aquí"><br>
+								<label for="TelD">Teléfono:</label> <input type="number" id="TelD" min="1"><br>
+								<h6>EL LUGAR DONDE VIVIRÁ EL PELUDITO POSEE:</h6>
+								<label for="patio">Patio </label> <input type="checkbox" name="patio"> &nbsp;&nbsp;&nbsp;&nbsp;
+								<label for="terraza">Terraza </label><input type="checkbox" name="terraza"> &nbsp;&nbsp;&nbsp;&nbsp;
+								<label for="jardin">Jardín </label><input type="checkbox" name="jardin"> &nbsp;&nbsp;&nbsp;&nbsp;<br>
+								<label> ¿Es cubierto? </label><br>
+								<label>Si </label><input type="radio" id="cub" name="cubierto" value="cub"> &nbsp;&nbsp;&nbsp;
+								<label>no </label><input type="radio" id="noCub" name="cubierto" value="nocub"> &nbsp;&nbsp;&nbsp;<br>
+								<label>Si el lugar donde estará el peludito es finca,¿tiene cerramiento? </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+								<label>Si</label><input type="radio" id="s" name="puerta" value="s"> &nbsp;&nbsp;&nbsp;
+								<label>No </label><input type="radio" id="n" name="puerta" value="n"> &nbsp;&nbsp;&nbsp;<br>
+								<label>¿Planea mudarse próximamente? </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+								<label>Si</label><input type="radio" id="s" name="mudanza" value="s"> &nbsp;&nbsp;&nbsp;
+								<label>No </label><input type="radio" id="n" name="mudanza" value="n"> &nbsp;&nbsp;&nbsp;
+							</div>
+						</form>
+					</center>
+				<center>
+					<button class="btn" type="submit">Enviar</button>
+				</center>
+			</div>
 	</div>
 
-	<div id="referencias">
-		<h3> <center> II. REFERENCIAS </center> </h3>
-		<label for="Refp">Referencia personal: </label> <input type="text" id="Refp" placeholder="Escriba aquí"><br>
-		<label for="Telp">Teléfono:</label> <input type="number" id="Telp" min="1"><br>
-		<label for="relacion">Relación: </label> <input type="text" id="relacion" placeholder="Escriba aquí"><br>
-		<label for="RefF">Referencia familiar: </label> <input type="text" id="RefF" placeholder="Escriba aquí"><br>
-		<label for="TelF">Teléfono:</label> <input type="number" id="TelF" min="1"><br>
-		<label for="parentesco">Parentesco: </label> <input type="text" id="parentesco" placeholder="Escriba aquí"><br>
-	</div>
-
-	<div id="situacion_personal">
-		<h3> <center> III. SITUACIÓN PERSONAL</center> </h3>
-		<label id="personas">Mencione las personas con quien vive: </label> <input type="text" id="perso" placeholder="Escriba aquí"><br><br>
-
-	<table BORDER WIDTH="50%" HEIGHT="30%" BORDER CELLPADDING=0 CELLSPACING=0 ">
-
-		<tr>
-			<th colspan="1">Nombre completo</th>
-			<th colspan="1">Edad</th>
-			<th colspan="1">Parentesco</th>
-		</tr>
-
-		<tr>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-		</tr>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-		
-		<tr>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-		</tr>
-
-		<tr>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-		</tr>
-		<tr>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-			<td colspan="1"><textarea cols="20" rows="1" class="nc"></textarea></td>
-		</tr>
-	</table>
-		<label id="bebe">¿Algún familiar espera un bebé? </label> <br>
-			<label>Si </label><input type="radio" id="si" name="bebe" value="si"> &nbsp;&nbsp;&nbsp;
-			<label>No </label><input type="radio" id="no" name="bebe" value="no"> &nbsp;&nbsp;&nbsp;<br>
-		
-		<label id="hogar">¿En su hogar alguien es alérgico a los animales o sufre de asma" </label><br>
-			<label>Si</label><input type="radio" id="si" name="alergia" value="si"> &nbsp;&nbsp;&nbsp;
-			<label>No </label><input type="radio" id="n" name="alergia" value="n"> &nbsp;&nbsp;&nbsp;<br>
-	</div>
-
-	<div id="domicilio">
-		<h3> <center> IV. DOMICILIO</center> </h3>
-		<label>¿Qué tipo de inmueble posee? </label> <br>
-		<label id="casa"> Casa</label><input type="radio" id="s" name="propio" value="p"> &nbsp;&nbsp;&nbsp;
-		<label id="apart"> Apartamento</label><input type="radio" id="s" name="propio" value="p"> &nbsp;&nbsp;&nbsp;
-		<label id="fin"> Finca</label><input type="radio" id="s" name="propio" value="p"> &nbsp;&nbsp;&nbsp;
-		<label id="pro"> Propio </label><input type="radio" id="s" name="propio" value="p"> &nbsp;&nbsp;&nbsp;
-		<label id="arre">Arrendado </label><input type="radio" id="n" name="arrendado" value="a"> &nbsp;&nbsp;&nbsp;<br>
-		<h3>SI ES ARRENDATARIO, COLOQUE EL NOMBRE Y NÚMERO DE TELÉFONO DEL DUEÑO </h3> 
-		<label id="nd" for="dueño">Nombre completo del dueño del inmueble: </label> <input type="text" id="dueño" placeholder="Escriba aquí"><br>
-		<label for="TelD">Teléfono:</label> <input type="number" id="TelD" min="1"><br>
-		<h3 >EL LUGAR DONDE VIVIRÁ EL PELUDITO POSEE:</h3>
-				<label for="patio">Patio </label> <input type="checkbox" name="patio"> &nbsp;&nbsp;&nbsp;&nbsp;
-				<label for="terraza">Terraza </label><input type="checkbox" name="terraza"> &nbsp;&nbsp;&nbsp;&nbsp;
-				<label for="jardin">Jardín </label><input type="checkbox" name="jardin"> &nbsp;&nbsp;&nbsp;&nbsp;<br>
-		<label> ¿Es cubierto? </label><br>
-				<label>Si </label><input type="radio" id="cub" name="cubierto" value="cub"> &nbsp;&nbsp;&nbsp;
-				<label>no </label><input type="radio" id="noCub" name="cubierto" value="nocub"> &nbsp;&nbsp;&nbsp;<br>
-		<label>Si el lugar donde estará el peludito es finca,¿tiene cerramiento? </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-				<label>Si</label><input type="radio" id="s" name="puerta" value="s"> &nbsp;&nbsp;&nbsp;
-				<label>No </label><input type="radio" id="n" name="puerta" value="n"> &nbsp;&nbsp;&nbsp;<br>
-		<label>¿Planea mudarse próximamente? </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-				<label>Si</label><input type="radio" id="s" name="mudanza" value="s"> &nbsp;&nbsp;&nbsp;
-				<label>No </label><input type="radio" id="n" name="mudanza" value="n"> &nbsp;&nbsp;&nbsp;
-	</div>
-	</form>
-</center>
-	<center>
-		<button class="btn" type="submit">Enviar</button>
-	</center>
-
-<!-- Pie de página-->
+	<!-- Pie de página-->
 	<footer class="page-footer">
-          <div class="container">
-            <div class="row">
-              <div class="NavExtended Title margin0">
- 				 <div class="container">
-				    <div class="Panel">
-				      <div class="Panel-title">
-				        <center>¿Tienes dudas e inquietudes?</center>
-				      </div>
-				      <div class="Panel-subtitle space-bottom-more">
-				        <center> Escribenos por cualquiera de nuestros contactos y te responderemos lo más pronto posible</center>
-				      </div>
-				      <div class="Panel-subtitle space-bottom">
-				        <a href=""><dw-button><center>Comunicarme</center></dw-button></a>
-				      </div>
-				    </div>
-				  </div>
+		<div class="container">
+			<div class="row">
+				<div class="NavExtended Title margin0">
+					<div class="container">
+						<div class="Panel">
+							<div class="Panel-title">
+								<center>¿Tienes dudas e inquietudes?</center>
+							</div>
+							<div class="Panel-subtitle space-bottom-more">
+								<center> Escribenos por cualquiera de nuestros contactos y te responderemos lo más pronto posible</center>
+							</div>
+							<div class="Panel-subtitle space-bottom">
+								<a href=""><dw-button><center>Comunicarme</center></dw-button></a>
+							</div>
+						</div>
+					</div>
 				</div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-            <center>© 2014 Copyright Text</center>  
-            </div>
-          </div>
-       </footer>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				<center>© 2014 Copyright Text</center>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

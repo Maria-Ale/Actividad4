@@ -44,58 +44,28 @@ body{
 	background: #D1AEFA;
 }
 #datos{
-	width: 47%;
+	width: 100%;
   background-color: #A33EFC;
   margin: 1em;
   border-radius: 1em;
 }
 #titulo{
-	font-size: 60px; 
-	font-style: italic;
+	font-family: Broadway;
+	font-size: larger;
 }
-#nomc{
-	position: relative;
-	right: 10px;
-}
-#ed{
-	position: relative;
-	right: 20px;
-}
-#dir{
-	position: relative;
-	right: 80px;
-}
-#nombre{
-	position: relative;
-	right: 5px;
-}
-#edad{
-	position: relative;
-	right: 15px;
-}
-#direccion{
-	position: relative;
-	right: 79px;
-}
+
+
 #referencias{
-	width: 47%;
+	width: 100%;
   background-color: #A33EFC;
   margin: 1em;
   border-radius: 1em;
 }
 #situacion_personal{
-	width: 47%;
+	width: 100%;
   background-color: #A33EFC;
   margin: 1em;
   border-radius: 1em;
-}
-#personas{
-	position: relative;
-	right: 40px;
-}
-#perso{
-	position: relative;
-	right: 30px;
 }
 #bebe{
 	position: relative;
@@ -117,7 +87,7 @@ body{
 	right: 20px;
 }
 #domicilio{
-	width: 47%;
+	width: 100%;
   background-color: #A33EFC;
   margin: 1em;
   border-radius: 1em;
@@ -138,22 +108,8 @@ body{
 	position: relative;
 	right: 30px;
 }
-#pro{
-	position: relative;
-	right: 30px;
-}
-#arre{
-	position: relative;
-	right: 20px;
-}
-#nd{
-	position: relative;
-	right: 60px;
-}
-#dueño{
-	position: relative;
-	right: 60px;
-}
+
+
 .containere{
 	font-family: Britannic;
 	color: blueviolet;
